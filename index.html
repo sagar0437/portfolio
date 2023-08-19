@@ -12,24 +12,37 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Bootstrap JS (and Popper.js for tooltips) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <script>
+      // Initialize tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      });
+    </script>
+    
   </head>
 
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Portfolio</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
         </span>
@@ -54,9 +67,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -71,7 +84,9 @@
           <div class="subheading mb-5">Pune - 411014 · (91) 8087613385 ·
             <a href="mailto:sagar.work0437@gmail.com">sagar.work0437@gmail.com</a>
           </div>
-          <p class="mb-5">Experience in Software Development for 4.5+ years in Angular, ReactJs, HTML5, CSS3, JavaScript, Typescript, RxJs, NgRx, UI/UX, JSON, REST API's.</p>
+          <p >Innovative web developer with a passion for crafting elegant and functional websites. </p>
+          <p>Experience in Software Development for 4.5+ years and Skilled in front-end and back-end development, I bring a creative and strategic approach to every project.</p>
+          <p class="mb-5">Proficient in a variety of programming languages and frameworks, I am dedicated to delivering responsive and user-friendly web solutions. With a proven ability to collaborate effectively in cross-functional teams and a strong commitment to staying updated with industry trends, I am driven to create seamless digital experiences that captivate users and exceed client expectations.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://twitter.com/firebrain_sbg" target="_blank">
@@ -107,48 +122,65 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <h3 class="mb-0">
+                Software Engineer</h3>
+              <div class="subheading mb-3">Coditas Technologies Pvt. Ltd. (Pune)</div>
+              <p>Working as a core team member in a project, I have contributed to the development of Angular(v13) Webapp for a Sales Enablement Platform.
+                Responsibilities:
+                <ul class="bullet-list">
+                  <li>Developed features using NgRx state management and RxJS.</li>
+                  <li>Implemented unit testing for features using Jest.</li>
+                  <li>Automated test cases using Cypress for efficient and reliable testing.</li>
+                  <li>Migrated application to a micro frontend architecture using Webpack.</li>
+                  <li>Utilized Highcharts for creating visually appealing and interactive data visualizations</li>
+                </ul>
+                </p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
+              <span class="text-primary">October 2021 - Present</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <div class="subheading mb-3">Quantsapp Pvt. Ltd. (Mumbai)</div>
+              <p>Working as a core team member in a start-up company, I have contributed to the development of Angular (v9, v10) 
+                webapp. Quantsapp is a Share Market based platform focused on Options Analytics, Learning, Research Services.
+                Responsibilities:
+                </p>
+                <ul class="bullet-list">
+                  <li>Involved in designing and developing of Future and Options Analytics products.</li>
+                  <li>Developed Real Time Data integration to Trading View (per second share market data).</li>
+                  <li>Developed different types of charts using D3.js, ngx-charts and Trading View charts.</li>
+                  <li>Experienced in Creating Build and Deploy on servers.</li>
+                </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
+              <span class="text-primary">June 2020 - October 2021</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <h3 class="mb-0">Software Developer</h3>
+              <div class="subheading mb-3">Polyglot Consultants Pvt. Ltd. (Pune)</div>
+              <p>Working as a core team member in a start-up company, I have contributed to the development of Angular(v8) webapp
+                which provides the platform for Language Service Provider
+                Responsibilities:
+                </p>
+                <ul class="bullet-list">
+                  <li>Involved in designing and developing of reusable Angular component.</li>
+                  <li>Involved in creating request component for user and agent.</li>
+                  <li>Involved in designing and developing Report generation for user.</li>
+                  <li>Design and developed Billing model for user.</li>
+                  <li>Developed Display in charts.</li>
+                </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
+              <span class="text-primary">March 2019 - April 2020</span>
             </div>
           </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
-
         </div>
 
       </section>
@@ -159,24 +191,29 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <h3 class="mb-0">Sunbeam Infotech Pune</h3>
+              <div class="subheading mb-3">Diploma in Advanced Computing (PG-DAC)</div>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">DBACER (Nagpur University)</h3>
+              <div class="subheading mb-3">Computer Science Engineering</div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">MHJ Vidyaniketan, Nagpur</h3>
+              <div class="subheading mb-3">Information technology - HSC (Maharashtra Board)</div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">SSC - Indira Gandhi Highschool</h3>
+              <div class="subheading mb-3">SSC (Maharashtra Board)</div>
             </div>
           </div>
 
@@ -189,38 +226,80 @@
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
-            <li class="list-inline-item">
+            <li class="list-inline-item"  title="Angular">
+              <i class="devicons devicons-angular"></i>
+            </li>
+            <li class="list-inline-item" title="React">
+              <i class="devicons devicons-react"></i>
+            </li>
+            <li class="list-inline-item" title="NextJs">
+              <i class="devicon-nextjs-original-wordmark"></i>
+            </li>
+            <li class="list-inline-item" title="Redux">
+              <i class="devicon-redux-original"></i>
+            </li>
+            <li class="list-inline-item" title="HTML5">
               <i class="devicons devicons-html5"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="CSS3">
               <i class="devicons devicons-css3"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="Javascript">
               <i class="devicons devicons-javascript"></i>
             </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
+            <li class="list-inline-item" title="Typescript">
+              <i class="devicons devicon-typescript-plain"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="Sass">
               <i class="devicons devicons-sass"></i>
             </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="Bootstrap">
               <i class="devicons devicons-bootstrap"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="Wordpress">
               <i class="devicons devicons-wordpress"></i>
             </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
+            <li class="list-inline-item" title="Git">
+              <i class="devicons devicons-git"></i>
             </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
+            <li class="list-inline-item" title="Github">
+              <i class="devicons devicon-github-original"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" title="Gitlab">
+              <i class="devicons devicon-gitlab-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item" title="Npm">
               <i class="devicons devicons-npm"></i>
+            </li>
+            <li class="list-inline-item" title="D3.js">
+              <i class="devicon-d3js-plain"></i>
+            </li>
+            <li class="list-inline-item" title="Express Js">
+              <i class="devicon-express-original"></i>
+            </li>
+            <li class="list-inline-item" title="Jira">
+              <i class="devicon-jira-plain"></i>
+            </li>
+            <li class="list-inline-item" title="Figma">
+              <i class="devicon-figma-plain"></i>
+            </li>
+            <li class="list-inline-item" title="MongoDb">
+              <i class="devicon-mongodb-plain"></i>
+            </li>
+            <li class="list-inline-item" title="NestJs">
+              <i class="devicon-nestjs-plain"></i>
+            </li>
+            <li class="list-inline-item" title="NodeJs">
+              <i class="devicon-nodejs-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item" title="Protractor">
+              <i class="devicon-protractor-plain"></i>
+            </li>
+            <li class="list-inline-item" title="Storybook">
+              <i class="devicon-storybook-plain"></i>
+            </li>
+            <li class="list-inline-item" title="Vscode">
+              <i class="devicon-vscode-plain"></i>
             </li>
           </ul>
 
@@ -245,12 +324,12 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p>I'm a passionate web developer with a zest for exploring both the digital and physical realms. When I'm not immersed in lines of code, you'll often find me on the open road, cruising on my bike and embracing the freedom it offers. Bike riding is not just a hobby for me; it's a way to unwind, clear my mind, and enjoy the beauty of the world around me.</p>
           <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
           <h2 class="mb-5">Awards &amp; Certifications</h2>
           <ul class="fa-ul mb-0">
@@ -283,7 +362,7 @@
               Place - James Buchanan High School - Hackathon 2005</li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
     </div>
 
